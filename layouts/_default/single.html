@@ -5,7 +5,7 @@
 <body>
 
 
-	{{ if and (gt .WordCount 400 ) (or (eq .Site.Params.toc "floating") (eq .Site.Params.toc "both") )}}
+	{{ if and (gt .WordCount 1000 ) (or (eq .Site.Params.toc "floating") (eq .Site.Params.toc "both") )}}
 	<div class="container-wide wrapper">
 		{{ partial "head.html" . }}
 

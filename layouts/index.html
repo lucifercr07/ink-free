@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html {{- if (eq .Site.Params.mode "dark" ) -}}class="dark" {{ end }}>
+<!-- In your HTML head -->
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+/>
+
 {{ partial "header.html" . }}
 
 <body>
